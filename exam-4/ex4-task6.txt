@@ -1,0 +1,35 @@
+Selected task: ex4-label-product.c
+
+The defensive strategies I employed were:
+1. Never Trust Input
+3. Fail Early and Openly
+7. Simplify and Clarify
+
+Some I would like to implement:
+2. Prevent Errors
+4. Document Assumptions
+5. Prevent Over Documentation
+6. Automate Everything
+
+For defensive strategy no. 1, I tried my best to create my own input and not copy just the input that was given in the example
+inputs and outputs. It was difficult to think of edge cases but I think I thought of some cases where my code could break.
+
+For defensive strategy no. 3, I made sure to fail fast and get the basic bugs out of the way. If there were issues, I would use printf()
+to visually see where the problem started/ended and debug my way through the code.
+
+For defensive strategy no. 7, I tried my best to make my code easy to read and understand. The functions are simple enough with O(n)
+efficiency for most of them. I commented lines of codes that may be a bit hard to understand immediately but the language I use is clear
+and the variables I use should be clear too. For each part of the task I use new functions e.g. we're meant to calculate the average sales
+so that part is put into a different function instead of main or anywhere else.
+
+As for what I would've liked to implement, for no 2., I know I haven't prevented all possible errors, such as checking if memory allocation
+actually succeeded, or checking for the appropriate order of product information being inputted, as well as their type, e.g. if input is a
+float for amount_sold when it should be an int. I should implement an error message or something similar to deal with such a case.
+
+For no. 5, I feel like I probably described some functions and their parameters unnecessarily when they're already there in the code
+and I was just repeating myself, but I wanted to be super clear and I found it difficult to balance how much I should describe the code.
+
+Lastly, for no. 6, I should've automated my testing instead of writing it into the command line every time as it probably would've saved
+time but I'll remember for next time maybe. Sending that into the code then would allow for swifter and efficient testing.
+
+
